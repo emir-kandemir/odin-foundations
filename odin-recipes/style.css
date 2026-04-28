@@ -19,4 +19,5 @@ a {
   background-color: coral;
   color: white;
   text-decoration: none;
+  border-radius: 5px;
 }
