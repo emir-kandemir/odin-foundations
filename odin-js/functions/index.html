@@ -16,6 +16,14 @@
       function multiply(number1, number2) {
         return number1 * number2;
       }
+
+      // Takes a string and capitalize to first letter and lowers to other letters besides first.
+      function capitalize(string) {
+        let strInd = string.charAt(0);
+        let capitalized = strInd.toUpperCase();
+        let restOfString = string.slice(1).toLowerCase();
+        return capitalized + restOfString;
+      }
     </script>
   </body>
 </html>
