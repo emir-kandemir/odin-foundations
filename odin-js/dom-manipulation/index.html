@@ -14,6 +14,16 @@
       <!-- Child-->
       <!-- ALso siblings to each other display and controls -->
     </div>
-    <script></script>
+    <script>
+      const container = document.querySelector('#container');
+
+      const display = container.firstElementChild;
+      console.log(display);
+
+      const controls = document.querySelector('.controls');
+
+      const dispMethod = controls.previousElementSibling;
+      console.log(dispMethod);
+    </script>
   </body>
 </html>
