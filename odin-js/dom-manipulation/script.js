@@ -11,3 +11,9 @@ const paraRed = document.createElement('p');
 paraRed.style.color = 'red';
 paraRed.textContent = "Hey I'm red!";
 container.appendChild(paraRed);
+
+// Blue <h3> with example text
+const headingBlue = document.createElement('h3');
+headingBlue.style.color = 'blue';
+headingBlue.textContent = "I'm a blue h3!";
+container.appendChild(headingBlue);
