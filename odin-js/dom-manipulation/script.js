@@ -32,3 +32,5 @@ myDiv.appendChild(myHeading);
 const myParagraph = document.createElement('p');
 myParagraph.textContent = 'ME TOO!';
 myDiv.appendChild(myParagraph);
+
+container.appendChild(myDiv);
