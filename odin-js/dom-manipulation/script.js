@@ -17,3 +17,8 @@ const headingBlue = document.createElement('h3');
 headingBlue.style.color = 'blue';
 headingBlue.textContent = "I'm a blue h3!";
 container.appendChild(headingBlue);
+
+// Black border, pink background <div>
+const myDiv = document.createElement('div');
+myDiv.classList.add('myDiv');
+myDiv.setAttribute('style', 'border: solid; background-color: pink;');
