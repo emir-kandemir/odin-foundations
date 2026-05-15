@@ -22,3 +22,13 @@ container.appendChild(headingBlue);
 const myDiv = document.createElement('div');
 myDiv.classList.add('myDiv');
 myDiv.setAttribute('style', 'border: solid; background-color: pink;');
+
+// <h1> in myDiv
+const myHeading = document.createElement('h1');
+myHeading.textContent = "I'm in a div";
+myDiv.appendChild(myHeading);
+
+// <p> in myDiv
+const myParagraph = document.createElement('p');
+myParagraph.textContent = 'ME TOO!';
+myDiv.appendChild(myParagraph);
