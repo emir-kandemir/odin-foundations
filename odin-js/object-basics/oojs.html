@@ -17,6 +17,32 @@
       for more information).
     </p>
 
-    <script></script>
+    <script>
+      let data = 42;
+
+      let dataCopy = data;
+
+      dataCopy = 43;
+
+      console.log(data);
+      console.log(dataCopy);
+
+      const obj = { data: 42 };
+
+      const objCopy = obj;
+
+      objCopy.data = 43;
+
+      console.log(obj);
+      console.log(objCopy);
+
+      let animal = { species: 'dog' };
+      let dog = animal;
+
+      animal = { species: 'cat' };
+
+      console.log(animal);
+      console.log(dog);
+    </script>
   </body>
 </html>
